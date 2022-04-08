@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        font-size: 1.8vh;
+    }
+
+    ::-webkit-scrollbar,
+    ::-webkit-scrollbar-track,
+    ::-webkit-scrollbar-track-piece {
+        width: .3rem;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background: white;
+        width: .3rem;
+        border-radius: 9999px;
+    }
+
+    .scrollbar-stable {
+        scrollbar-gutter: stable;
+    }
+}
